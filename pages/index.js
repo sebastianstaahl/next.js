@@ -25,7 +25,7 @@ export default function Home({ posts}) {
                 <h2>{post.common_name}</h2>
                 
                 <a>
-                  <img src={post.cover_image}/>
+                  <img src={post.cover_image} alt= "image of flower"/>
                 </a>
                 
                 <Link href="/post/[id]" as={`/post/${post.number}`}>
